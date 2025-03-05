@@ -1,0 +1,19 @@
+html, body {
+    overflow-x: hidden; /* Mencegah horizontal scroll */
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #4CAF50; /* Warna hijau */
+    width: 100vw; /* Gunakan viewport width untuk memastikan selebar layar */
+    margin: 0;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 100% !important;
+    width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
